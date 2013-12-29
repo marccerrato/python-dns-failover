@@ -12,7 +12,7 @@ Python DNS Failover
         :target: https://crate.io/packages/python-dns-failover?version=latest
 
 
-"Python script to automatically update DNS records for a bunch of servers participating in a Round-Robin DNS setup"
+Python script to automatically update DNS records for a bunch of servers participating in a Round-Robin DNS setup.
 
 * Free software: BSD license
 * Documentation: http://python-dns-failover.rtfd.org.

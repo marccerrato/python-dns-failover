@@ -20,7 +20,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 setup(
     name='python-dns-failover',
     version='0.1.0',
-    description='"Python script to automatically update DNS records for a bunch of servers participating in a Round-Robin DNS setup"',
+    description='Python script to automatically update DNS records for a bunch of servers participating in a Round-Robin DNS setup.',
     long_description=readme + '\n\n' + history,
     author='Marc Cerrato',
     author_email='marccerrato@gmail.com',
@@ -31,6 +31,7 @@ setup(
     package_dir={'dns_failover': 'dns_failover'},
     include_package_data=True,
     install_requires=[
+        "requests==2.1.0",
     ],
     license="BSD",
     zip_safe=False,
