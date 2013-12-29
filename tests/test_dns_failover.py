@@ -2,18 +2,18 @@
 # -*- coding: utf-8 -*-
 
 """
-test_python-dns-failover
+test_dns_failover
 ----------------------------------
 
-Tests for `python-dns-failover` module.
+Tests for `dns_failover` module.
 """
 
 import unittest
 
-from python-dns-failover import python-dns-failover
+# import dns_failover
 
 
-class TestPython-dns-failover(unittest.TestCase):
+class TestDNSFailover(unittest.TestCase):
 
     def setUp(self):
         pass

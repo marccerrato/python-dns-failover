@@ -26,9 +26,9 @@ setup(
     author_email='marccerrato@gmail.com',
     url='https://github.com/marccerrato/python-dns-failover',
     packages=[
-        'python-dns-failover',
+        'dns_failover',
     ],
-    package_dir={'python-dns-failover': 'python-dns-failover'},
+    package_dir={'dns_failover': 'dns_failover'},
     include_package_data=True,
     install_requires=[
     ],
