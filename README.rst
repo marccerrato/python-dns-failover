@@ -17,7 +17,14 @@ Python DNS Failover
 * Free software: BSD license
 * Documentation: http://python-dns-failover.rtfd.org.
 
-Features
---------
+This project is mainly based on `@dotcloud`_'s work on his project `autodnsfailover`_.
+The main difference is that python-dns-failover script is aimed to *run in an external
+machine* while `autodnsfailover`_ is to run in the participating servers themselves.
 
-* TODO
+.. _`@dotcloud`: https://github.com/dotcloud/
+.. _`autodnsfailover`: https://github.com/dotcloud/autodnsfailover
+
+TODO
+--------
+* Documentation
+* Testing
