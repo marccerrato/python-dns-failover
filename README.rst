@@ -18,8 +18,9 @@ Python DNS Failover
 * Documentation: http://python-dns-failover.rtfd.org.
 
 This project is mainly based on `@dotcloud`_'s work on his project `autodnsfailover`_.
-The main difference is that python-dns-failover script is aimed to *run in an external
-machine* while `autodnsfailover`_ is to run in the participating servers themselves.
+
+The main difference is that **python-dns-failover** script is aimed to **run in an external
+machine** while `autodnsfailover`_ is to run in the participating servers themselves.
 
 .. _`@dotcloud`: https://github.com/dotcloud/
 .. _`autodnsfailover`: https://github.com/dotcloud/autodnsfailover
