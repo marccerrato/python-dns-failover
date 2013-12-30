@@ -19,10 +19,11 @@ class CloudFlareDNS(object):
 
         - `email`: E-mail address of your CloudFlare account.
         - `key`: API key of your CloudFlare account.
-        - `zone`: DNS target full qualified domain name.
+        - `zone`: target DNS full qualified domain name.
         - `ttl`: TTL of record in seconds. 1 = Automatic, otherwise, value
-                 must in between 120 and 4,294,967,295 seconds.
-        - `url`: CloudFlare client gateway interface url.
+                 must in between 120 and 4,294,967,295 seconds. Defaults to 1.
+        - `url`: CloudFlare client gateway interface url. Defaults to
+                 'https://www.cloudflare.com/api_json.html'.
         """
         self.url = url
         self.zone = zone
