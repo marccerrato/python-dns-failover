@@ -31,7 +31,7 @@ setup(
     package_dir={'dns_failover': 'dns_failover'},
     include_package_data=True,
     install_requires=[
-        "requests==2.1.0",
+        "requests==2.20.0",
     ],
     license="BSD",
     zip_safe=False,
